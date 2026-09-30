@@ -6,172 +6,201 @@
     <title>1st Practical Project</title>
     <meta name="description" content="This is HTML document by Hlib Osmakov">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
 
     <!-- Header -->
     <header>
-        <p>1st Practical Project</p>
-        <p>Ventspils University of Applied Sciences</p>
+        <div class="container">
+            <p class="lead">1st Practical Project</p>
+            <p class="subtitle">Ventspils University of Applied Sciences</p>
+        </div>
     </header>
 
     <!-- Navigation -->
     <nav>
-        <ul>
-            <li>
-                <a href="https://www.venta.lv/" target="_blank">VeA</a>
-            </li>
-            <li>
-                <a href="https://validator.w3.org/" target="_blank">W3 Validator</a>
-            </li>
-            <li>
-                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" target="_blank">HTML reference</a>
-            </li>
-            <li>
-                <a href="https://git-scm.com/" target="_blank">Git</a>
-            </li>
-        </ul>
+        <div class="container">
+            <ul>
+                <li>
+                    <a href="https://www.venta.lv/" target="_blank">VeA</a>
+                </li>
+                <li>
+                    <a href="https://validator.w3.org/" target="_blank">W3 Validator</a>
+                </li>
+                <li>
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" target="_blank">HTML
+                        reference</a>
+                </li>
+                <li>
+                    <a href="https://git-scm.com/" target="_blank">Git</a>
+                </li>
+            </ul>
+        </div>
     </nav>
 
     <!-- Main content -->
-    <main>
+    <main class="container">
+        <div class="flexbox-columns">
+            <article>
+                <h1>Supernatural</h1>
 
-        <article>
-            <h1>Supernatural</h1>
+                <figure>
+                    <img src="img/main.jpg" alt="Supernatural">
+                    <figcaption>Sam and Dean Winchester</figcaption>
+                </figure>
 
-            <img src="D:\dev\VeA_WEB\img\main.jfif" alt="Supernatural">
+                <p>
+                    <em>Supernatural</em> is an American television series created by Eric Kripke.
+                    The series follows two brothers, Sam and Dean Winchester, who travel across
+                    the United States investigating and fighting supernatural creatures.
+                </p>
 
-            <p>
-                <em>Supernatural</em> is an American television series created by Eric Kripke.
-                The series follows two brothers, Sam and Dean Winchester, who travel across
-                the United States investigating and fighting supernatural creatures.
-            </p>
+                <p>
+                    The story begins with the brothers searching for their missing father,
+                    John Winchester. During their journey, they encounter ghosts, demons,
+                    vampires, werewolves and many other supernatural beings.
+                </p>
 
-            <p>
-                The story begins with the brothers searching for their missing father,
-                John Winchester. During their journey, they encounter ghosts, demons,
-                vampires, werewolves and many other supernatural beings.
-            </p>
+                <p>
+                    Sam and Dean travel in a black 1967 Chevrolet Impala, which becomes one
+                    of the most recognizable symbols of the series. They use their father's
+                    journal to investigate supernatural events and learn how to defeat
+                    different creatures.
+                </p>
 
-            <p>
-                Sam and Dean travel in a black 1967 Chevrolet Impala, which becomes one
-                of the most recognizable symbols of the series. They use their father's
-                journal to investigate supernatural events and learn how to defeat
-                different creatures.
-            </p>
+                <p>
+                    The series premiered in 2005 and ran for 15 seasons. Over time, its story
+                    expanded from individual supernatural cases to larger conflicts involving
+                    demons, angels and other powerful supernatural forces.
+                </p>
+            </article>
 
-            <p>
-                The series premiered in 2005 and ran for 15 seasons. Over time, its story
-                expanded from individual supernatural cases to larger conflicts involving
-                demons, angels and other powerful supernatural forces.
-            </p>
-        </article>
+            <aside>
+                <h2>Character information</h2>
 
-        <aside>
-            <h2>Main characters</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Character</th>
+                            <th>Actor</th>
+                            <th>Species</th>
+                            <th>First appearance</th>
+                        </tr>
+                    </thead>
 
-            <table>
-                <thead>
-                    <tr>
-                        <th>Character</th>
-                        <th>Actor</th>
-                        <th>Species</th>
-                        <th>First appearance</th>
-                    </tr>
-                </thead>
+                    <tbody>
+                        <tr>
+                            <td>Dean Winchester</td>
+                            <td>Jensen Ackles</td>
+                            <td>Human</td>
+                            <td>Pilot</td>
+                        </tr>
 
-                <tbody>
-                    <tr>
-                        <td>Dean Winchester</td>
-                        <td>Jensen Ackles</td>
-                        <td>Human</td>
-                        <td>Pilot</td>
-                    </tr>
+                        <tr>
+                            <td>Sam Winchester</td>
+                            <td>Jared Padalecki</td>
+                            <td>Human</td>
+                            <td>Pilot</td>
+                        </tr>
 
-                    <tr>
-                        <td>Sam Winchester</td>
-                        <td>Jared Padalecki</td>
-                        <td>Human</td>
-                        <td>Pilot</td>
-                    </tr>
+                        <tr>
+                            <td>Castiel</td>
+                            <td>Misha Collins</td>
+                            <td>Angel</td>
+                            <td>Lazarus Rising</td>
+                        </tr>
 
-                    <tr>
-                        <td>Castiel</td>
-                        <td>Misha Collins</td>
-                        <td>Angel</td>
-                        <td>Lazarus Rising</td>
-                    </tr>
+                        <tr>
+                            <td>Crowley</td>
+                            <td>Mark Sheppard</td>
+                            <td>Demon</td>
+                            <td>Abandon All Hope...</td>
+                        </tr>
 
-                    <tr>
-                        <td>Crowley</td>
-                        <td>Mark Sheppard</td>
-                        <td>Demon</td>
-                        <td>Abandon All Hope...</td>
-                    </tr>
-
-                    <tr>
-                        <td>Bobby Singer</td>
-                        <td>Jim Beaver</td>
-                        <td>Human</td>
-                        <td>Devil's Trap</td>
-                    </tr>
-                </tbody>
-            </table>
-        </aside>
-
+                        <tr>
+                            <td>Bobby Singer</td>
+                            <td>Jim Beaver</td>
+                            <td>Human</td>
+                            <td>Devil's Trap</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </aside>
+        </div>
         <section>
             <h2>Main characters</h2>
 
-            <section>
-                <h3>Dean Winchester</h3>
-                <img src="" alt="Dean">
-                <p>
-                    Dean Winchester is the older of the Winchester brothers. He is an experienced
-                    hunter who is strongly devoted to protecting his family. Dean is also known
-                    for his love of classic rock, food and his 1967 Chevrolet Impala.
-                </p>
+            <div class="related-content">
 
-                <h3>Sam Winchester</h3>
-                <img src="" alt="Sam">
-                <p>
-                    Sam Winchester is Dean's younger brother and a skilled supernatural hunter.
-                    He is intelligent, curious and often relies on research when solving cases.
-                    Unlike Dean, Sam originally wanted to leave hunting and live a normal life.
-                </p>
+                <section class="related-panel">
+                    <h3>Dean Winchester</h3>
+                    <img src="img/dean.jpg" alt="Dean Winchester">
+                    <p>
+                        Dean Winchester is the older of the Winchester brothers. He is an experienced
+                        hunter who is strongly devoted to protecting his family. Dean is also known
+                        for his love of classic rock, food and his 1967 Chevrolet Impala.
+                    </p>
+                </section>
 
-                <h3>Castiel</h3>
-                <img src="" alt="Castiel">
-                <p>
-                    Castiel is an angel who first appears while helping Dean Winchester.
-                    Although initially distant from humans, he gradually becomes a close friend
-                    and important ally of the Winchester brothers.
-                </p>
+                <section class="related-panel">
+                    <h3>Sam Winchester</h3>
+                    <img src="img/sam.jpg" alt="Sam Winchester">
+                    <p>
+                        Sam Winchester is Dean's younger brother and a skilled supernatural hunter.
+                        He is intelligent, curious and often relies on research when solving cases.
+                        Unlike Dean, Sam originally wanted to leave hunting and live a normal life.
+                    </p>
+                </section>
 
-                <h3>Crowley</h3>
-                <img src="" alt="Crowley">
-                <p>
-                    Crowley is a powerful demon who eventually becomes the King of Hell.
-                    He is intelligent, sarcastic and highly manipulative. Despite often being
-                    an enemy of the Winchesters, he sometimes works together with them.
-                </p>
+                <section class="related-panel">
+                    <h3>Castiel</h3>
+                    <img src="img/castiel.jpg" alt="Castiel">
+                    <p>
+                        Castiel is an angel who first appears while helping Dean Winchester.
+                        Although initially distant from humans, he gradually becomes a close friend
+                        and important ally of the Winchester brothers.
+                    </p>
+                </section>
 
-                <h3>Bobby Singer</h3>
-                <img src="" alt="Bobby">
-                <p>
-                    Bobby Singer is an experienced hunter and a close friend of the Winchester
-                    family. He provides Sam and Dean with knowledge, research and support during
-                    their hunts, becoming an important father figure to both brothers.
-                </p>
+                <section class="related-panel">
+                    <h3>Crowley</h3>
+                    <img src="img/crowley.jpg" alt="Crowley">
+                    <p>
+                        Crowley is a powerful demon who eventually becomes the King of Hell.
+                        He is intelligent, sarcastic and highly manipulative. Despite often being
+                        an enemy of the Winchesters, he sometimes works together with them.
+                    </p>
+                </section>
 
-            </section>
+                <section class="related-panel">
+                    <h3>Bobby Singer</h3>
+                    <img src="img/bobby.jpg" alt="Bobby Singer">
+                    <p>
+                        Bobby Singer is an experienced hunter and a close friend of the Winchester
+                        family. He provides Sam and Dean with knowledge, research and support during
+                        their hunts, becoming an important father figure to both brothers.
+                    </p>
+                </section>
+
+            </div>
         </section>
+
 
     </main>
 
     <!-- Footer -->
     <footer>
-        <p>&#128187; Hlib Osmakov, 2026</p>
+        <div class="container">
+            <p>&#128187; Hlib Osmakov, 2026</p>
+        </div>
     </footer>
 
 </body>
